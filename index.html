@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Jornada pelo Tesouro dos Mares</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="ilha tropical.jpeg" alt=""alt="">
+            <p>Enquanto folheava um antigo diário de bordo na biblioteca, você encontrou uma pista sobre um tesouro escondido em ilhas remotas. O diário descreve a localização do tesouro em um arquipélago misterioso. Sua jornada para encontrar esse tesouro começa agora!</p>
+            <button class="btn-proximo" data-proximo="1">Ilha Grande</button>
+            <button class="btn-proximo" data-proximo="2">Ilhas do Pacífico</button>
+        </div>
+        <div class="passo" id="passo-1">
+           <img src="ilha-grande.jpeg" alt="">
+            <p>Você decide começar sua busca na Ilha Grande. Explorando a ilha, você encontra dois locais promissores para investigar: uma antiga fortaleza e uma caverna escondida.</p>
+            <button class="btn-proximo" data-proximo="3">Investigar a fortaleza</button>
+            <button class="btn-proximo" data-proximo="4">Explorar a caverna</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="ilhas-pacifico.jpeg" alt="">
+            <p>Nas Ilhas do Pacífico, você descobre uma pista no mercado local que menciona um tesouro enterrado em um recife de corais. Qual caminho você escolhe?</p>
+            <button class="btn-proximo" data-proximo="5">Mergulhar no recife</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as praias</button>
+        </div>
+        <div class="passo" id="passo-3">
+           <img src="fortaleza.jpeg  " alt="">
+            <p>Na fortaleza da Ilha Grande, você encontra uma sala secreta com um mapa antigo que indica que o próximo passo é buscar por um símbolo enigmático em uma ilha próxima.</p>
+            <button class="btn-proximo" data-proximo="7">Navegar para a ilha próxima</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+           <img src="desistiu.jpg" alt=""alt="imagem desistindo da busca e retornando para casa">
+            <p>Você decide que a busca é muito complicada e retorna para casa, mas sempre se pergunta o que poderia ter encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+           <img src="mergulho.jpg" alt="">
+            <p>Mergulhando no recife de corais, você encontra uma pista em uma garrafa submersa, que revela que o próximo local a ser investigado é uma caverna subaquática.</p>
+            <button class="btn-proximo" data-proximo="8">Ir para a caverna subaquática</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+           <img src="praia.jpg" alt="">
+            <p>Explorando as praias, você encontra uma concha misteriosa com uma inscrição que sugere que você deve procurar uma caverna subaquática.</p>
+            <button class="btn-proximo" data-proximo="8">Ir para a caverna subaquática</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+        <img src="mapa.jpg" alt="">
+            <p>Na ilha próxima, você encontra o símbolo enigmático em uma antiga pedra, que revela a localização de um mapa escondido em uma caverna na Ilha Grande.</p>
+            <button class="btn-proximo" data-proximo="9">Voltar para a Ilha Grande</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+           <img src="caverna.jpg" alt="">
+            <p>Na caverna subaquática, você descobre um cofre antigo cheio de ouro e joias preciosas.</p>
+            <button class="btn-proximo" data-proximo="10">Explorar mais o cofre</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="grande.jpg" alt="">
+            <p>De volta à Ilha Grande, você encontra a caverna que contém o mapa antigo, que finalmente leva ao esconderijo do tesouro.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o esconderijo do tesouro</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="saida.jpg" alt="">
+            <p>Explorando o cofre, você descobre uma mensagem que revela a localização final do tesouro: uma ilha desconhecida no meio do Pacífico.</p>
+            <button class="btn-proximo" data-proximo="12">Navegar para a ilha desconhecida</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="tesouro.jpeg" alt=""alt="encontrando um tesouro escondido em uma ilha remota">
+            <p>Você finalmente encontra o tesouro escondido na ilha remota, repleta de riquezas e segredos. Sua aventura é um sucesso!</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="descoberta.jpg" alt="">
+            <p>Na ilha desconhecida, você encontra um antigo baú com o tesouro escondido e decide que sua jornada valeu a pena.</p>
+            <button class="btn-proximo" data-proximo="11">Descobrir mais sobre o tesouro</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
